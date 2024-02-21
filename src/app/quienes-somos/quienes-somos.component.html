@@ -1,0 +1,13 @@
+<p>quienes-somos works!</p>
+
+
+<div class="btn-group">
+    <input type="button" class=" btn btn-secondary" value="Get" (click)="get()"/>
+    
+    <input type="text" placeholder="Introduce ID" name="id" [(ngModel)]="inputIdGet"/>
+    <input type="button" class=" btn btn-secondary" value="Get" (click)="get2()"/>
+</div>
+
+<pre>
+    {{ this.resultadoPeticion | json}}
+</pre>
